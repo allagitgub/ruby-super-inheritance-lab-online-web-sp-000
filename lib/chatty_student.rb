@@ -6,6 +6,6 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    puts super time 10
+    super time 10
   end
 end
